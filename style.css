@@ -3,3 +3,63 @@
     src: url(fonts\Roboto);
 }
 
+header {
+    background-color: #03256C;
+    text-align: center;
+    color: white;
+    font: 20px;
+}
+
+a.nav-link:link
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: white;
+   text-decoration: none;
+}
+
+footer {
+    background-color: #03256C;
+    text-align: center;
+    color: white;
+}
+
+section.section1 {
+    background-color: #03256C;
+    text-align: center;
+    color: white;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 400px;
+    height: 50px;
+  }
+
+  span.b { 
+    display: inline-block; 
+    width: 400px; 
+    height: 250px; 
+    padding: 5px; 
+    border: 2px solid blue; 
+    border-radius: 25px; 
+}
+
+h2 {
+    text-align: left;
+}

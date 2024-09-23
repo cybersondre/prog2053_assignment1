@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'Roboto';
-    src: url(fonts\Roboto);
-}
-
 * {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -14,25 +9,15 @@ header {
     font-size: 30px;
 }
 
-a.nav-link:link
-{
-   color: white;
-   text-decoration: none;
+a.nav {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-family: "Roboto";
 }
-a.nav-link:visited
-{
-   color: white;
-   text-decoration: none;
-}
-a.nav-link:hover
-{
-   color: white;
-   text-decoration: none;
-}
-a.nav-link:active
-{
-   color: white;
-   text-decoration: none;
+
+body {
+    margin: 0;
 }
 
 footer {
@@ -47,9 +32,8 @@ section.section1 {
     color: white;
 }
 
-section.section2 {
-    text-align: center;
-    background-color: lightblue;
+section.section4 {
+    margin-top: 20px;
 }
 
 .header-left {
@@ -61,17 +45,37 @@ section.section2 {
     font-size: 40px;
 }
 
+.rounded-image {
+    width: 500px; 
+    height: auto;
+    border-radius: 15px; 
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box1 {
+    width: 50%;
+    height: 200px;
+    text-align: left;
+}
+
+.box2 {
+    width: 100%; /* Make sure the image takes full width */
+    max-width: 500px; /* Limit the maximum width of the image */
+    border-radius: 10px; /* Add border-radius to match the design */
+}
+
 .container1 {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-}
-
-.box1 {
-    padding: 20px;
-    border-radius: 10px;
-    width: 48%;
-    text-align: left;
 }
 
 /* Flex container for hver rad */
@@ -103,8 +107,41 @@ section.section2 {
 }
 
 
-.rounded-image {
-    width: 80%;  /*Sett bredde på bildet*/
-    height: auto;
-    border-radius: 15px; 
+.quote-container {
+    background-color: #1768AC;
+    padding: 20px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
 }
+
+.quote-text {
+    font-style: italic;
+    color: black;
+}
+
+.quote-author {
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.box3 {
+    padding: 20px;
+    border-radius: 10px;
+    width: 48%;
+    text-align: center;
+    background-color: #2541B2;
+    justify-content: flex-end;
+}
+
+span.A {
+    display: block; 
+    width: 500px; 
+    height: 150px; 
+    padding: 20px;
+    border-radius: 15px; 
+    background-color: #2541B2; 
+    margin: 0 auto;
+}
+

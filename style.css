@@ -81,29 +81,25 @@ section.section4 {
 /* Flex container for hver rad */
 .row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    gap: 5px;
-    margin-bottom: 20px; /* Avstand mellom radene */
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto; /* Avstand mellom radene */
 }
 
 /* Styling for bildene */
 .image-box {
-    width: 40%;
+    width: 50%;
     border-radius: 15px;
     height: auto;
-    display: flex;
-    justify-content: center;   /* Sentrer bilde horisontalt */
-    align-items: center;
 }
 
 /* Styling for teksten */
 .text-box {
-    width: 500px;
-    padding: 5px;
+    width: 400px;
     font-size: 20px;
     line-height: 1.6;
-    display: flex;
 }
 
 

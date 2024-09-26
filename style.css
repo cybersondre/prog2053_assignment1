@@ -30,6 +30,11 @@ section.section1 {
     background-color: #03256C;
     text-align: center;
     color: white;
+    padding: 20px;
+}
+
+section.section3 {
+    background-color: #1768AC
 }
 
 section.section4 {
@@ -38,17 +43,12 @@ section.section4 {
 
 .header-left {
     text-align: left;
+    font-size: 40px;
 }
 
 .header-center {
     text-align: center;
     font-size: 40px;
-}
-
-.rounded-image {
-    width: 500px; 
-    height: auto;
-    border-radius: 15px; 
 }
 
 .container1 {
@@ -58,12 +58,14 @@ section.section4 {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .box1 {
-    width: 50%;
-    height: 200px;
+    width: 35%;
+    height: 300px;
     text-align: left;
+    font-size: 20px;
 }
 
 .box2 {
@@ -78,57 +80,17 @@ section.section4 {
     padding: 20px;
 }
 
-/* Flex container for hver rad */
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto; /* Avstand mellom radene */
-}
-
-/* Styling for bildene */
-.image-box {
-    width: 50%;
-    border-radius: 15px;
-    height: auto;
-}
-
-/* Styling for teksten */
-.text-box {
-    width: 400px;
-    font-size: 20px;
-    line-height: 1.6;
-}
-
-
-.quote-container {
-    background-color: #1768AC;
-    padding: 20px;
-    text-align: center;
-    width: fit-content;
-    margin: auto;
-}
-
-.quote-text {
-    font-style: italic;
-    color: black;
-}
-
+.quote-box { /* Change to light grey color */
+    padding: 30px;             /* Add more padding for spacing */
+    border-radius: 10px;        /* Rounded corners for the box */
+    max-width: 800px;           /* Set a max width for the quote box */
+    margin: 20px auto;          /* Center the box horizontally with auto margin */
+} 
+  
 .quote-author {
-    font-weight: bold;
-    color: black;
-    margin-top: 10px;
-}
-
-.box3 {
-    padding: 20px;
-    border-radius: 10px;
-    width: 48%;
-    text-align: center;
-    background-color: #2541B2;
-    justify-content: flex-end;
+   text-align: right;          /* Align the author's name to the right */
+   font-weight: bold;          /* Make the author’s name bold */
+   margin-top: 10px;           /* Add space above the author’s name */
 }
 
 span.A {
@@ -141,3 +103,30 @@ span.A {
     margin: 0 auto;
 }
 
+/* GRID TEST */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;   /* Two equal-width columns */
+    grid-template-rows: auto auto;    /* Two rows (adjust to content) */
+    gap: 40px;                        /* Space between grid items */
+    justify-items: center;            /* Center items horizontally */
+    align-items: center;              /* Center items vertically */
+    max-width: 1200px;                /* Set a maximum width for the container */
+    margin: 0 auto;                   /* Center the grid on the page */
+}
+  
+.grid-item {
+   display: flex;
+   flex-direction: row;              /* Row direction for text and image */
+   align-items: center;              /* Center items vertically in each grid cell */
+   font-size: 20px;
+   line-height: 1.6;
+   padding: 20px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;             /* To match the rounded corners of your image */
+    margin-bottom: 10px;             /* Space between image and text */
+  }

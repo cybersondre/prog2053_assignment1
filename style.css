@@ -129,4 +129,24 @@ img {
     height: auto;
     border-radius: 15px;             /* To match the rounded corners of your image */
     margin-bottom: 10px;             /* Space between image and text */
-  }
+}
+
+.container {
+    width: 600px;
+    border: 2px solid #000;
+    margin: auto;
+    float: none;
+}
+
+article {
+    width: 30%;
+    padding: 1.5%;
+    border: 1px solid #000;
+    float: left;
+}
+
+.clearfix {
+    margin: auto;
+    float: none;
+    clear: both;
+}

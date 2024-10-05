@@ -131,22 +131,16 @@ img {
     margin-bottom: 10px;             /* Space between image and text */
 }
 
-.container {
+.post {
     width: 600px;
     border: 2px solid #000;
     margin: auto;
-    float: none;
+    background-color: green;
 }
 
-article {
-    width: 30%;
-    padding: 1.5%;
-    border: 1px solid #000;
-    float: left;
-}
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-.clearfix {
-    margin: auto;
-    float: none;
-    clear: both;
 }
